@@ -31,6 +31,8 @@ h3 {
 }
 
 h4 {
+  padding-top: 2rem;
+  color: #8c613b;
   font-size: 1.2rem;
 }
 
@@ -194,4 +196,46 @@ p {
   border: #0000002a 1px solid;
 }
 
+.mondrian-pic {
+  background: url("../images/mondrian-grid-project.png") center center;
+  background-size: cover;
+  border-radius: 25px;
+  border: #0000002a 1px solid;
+}
+
 /* Projects styling END */
+/* About styling START */
+
+/* .about h2 {
+  width: 70%;
+  margin: auto;
+  padding-top: 6rem;
+} */
+
+.about-content {
+  width: 70%;
+  margin: auto;
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 50rem;
+  gap: 3rem;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text p {
+  padding-top: 1rem;
+}
+
+.about-img {
+  background: url(../images/me-in-mountains.jpg) center center;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+/* About styling END */
