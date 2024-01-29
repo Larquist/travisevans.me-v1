@@ -18,8 +18,8 @@
             <li class="nav-item"><a href="#hero">Home</a></li>
             <li class="nav-item"><a href="#work">Work</a></li>
             <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="#resume">Resume</a></li>
             <li class="nav-item"><a href="#contact">Contact</a></li>
+            <li class="nav-item"><a href="./assets/downloads/Travis Evans Resume.pdf" download><img src="./assets/images/download.svg" alt="Download icon."> Resume </a></li>
           </ul>
         </nav>
       </div>
@@ -59,6 +59,10 @@
       </div>
     </section>
     <section id="work" class="work">
+      <!-- About To do:
+      - Add tabbed layout for different showcases. IE: CSS, React, Javascript, etc.
+      - Dedicated pages for each project with more details about them
+      -->
       <h2>Projects</h2>
       <div class="work-content">
         <div class="personal-site-pic"></div>
@@ -189,17 +193,50 @@
         <div class="about-img"></div>
       </div>
     </section>
-    <section id="resume" class="resume"></section>
-    <section id="contact" class="contact"></section>
+    <!-- 
+      Resume To do:
+      - I'd like to ideally have a vertical line with notches coming off for each
+      signifigant experience. IE: 2019 - Graduated, 2021 - Started @ Samuel, etc.
+      <section id="resume" class="resume"></section> -->
+    <section id="contact" class="contact">
+      <!-- Contact To do:
+      - add php script to send email. -->
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p>I'll do my best to write back to you as soon as possible.</p>
+        <form action="#">
+          <div class="name-container">
+            <div class="first-name">
+              <label for="fname">First Name</label>
+              <input type="text" name="fname" id="fname" placeholder="First name...">
+            </div>
+            <div class="last-name">
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" id="lname" placeholder="Last name...">
+            </div>
+          </div>
+          <div class="email-input">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email address...">
+          </div>
+          <div class="message-container">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Your message here..."></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-socials">
+          <a href="https://github.com/Larquist"><img src="./assets/images/github-white.svg" alt="Github icon."></a>
+          <a href="https://www.linkedin.com/in/evansgtravis/"><img src="./assets/images/linked-in-white.svg" alt="Linkedin icon."></a>
+        </div>
+        <p>Designed & Built by Travis "Larquist" Evans</p>
+      </div>
+    </footer>
   </body>
 </html>
-
-<!-- <h1 class="text-main">Hi, I'm Travis Evans</h1>
-        <h4>a Web Developer</h4>
-        <p>
-          Welcome to my digital realm! I'm a web developer based in Burlington,
-          ON, crafting seamless online experiences. With a passion for design
-          and mastery of cutting-edge tech, I bring ideas to life. Join me on
-          this journey where every line of code tells a story, and every project
-          is a canvas for innovation.
-        </p> -->
